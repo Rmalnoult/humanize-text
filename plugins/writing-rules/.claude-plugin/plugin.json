@@ -1,0 +1,12 @@
+{
+  "name": "writing-rules",
+  "version": "1.0.0",
+  "description": "Humanize AI-generated text. Eliminates em dashes, title case, corporate filler, and robotic rhythm. Auto-invoked when writing user-facing text.",
+  "author": {
+    "name": "Rmalnoult",
+    "url": "https://github.com/Rmalnoult"
+  },
+  "repository": "https://github.com/Rmalnoult/claude-writing-rules",
+  "license": "MIT",
+  "keywords": ["writing", "copywriting", "humanize", "seo", "content"]
+}
