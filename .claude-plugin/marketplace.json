@@ -1,5 +1,5 @@
 {
-  "name": "writing-rules",
+  "name": "humanize-text",
   "owner": {
     "name": "Rmalnoult"
   },
@@ -10,8 +10,8 @@
   },
   "plugins": [
     {
-      "name": "writing-rules",
-      "source": "./writing-rules",
+      "name": "humanize-text",
+      "source": "./humanize-text",
       "description": "Humanize AI-generated text: ban AI phrases, enforce sentence case, remove em dashes, add natural rhythm.",
       "version": "1.0.0",
       "keywords": ["writing", "copywriting", "humanize", "seo"],

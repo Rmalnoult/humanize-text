@@ -1,4 +1,4 @@
-# claude-writing-rules
+# humanize-text
 
 A Claude Code plugin that makes AI-generated text sound human. Kills em dashes, title case headings, corporate filler, and the robotic rhythm that screams "AI wrote this."
 
@@ -7,8 +7,8 @@ A Claude Code plugin that makes AI-generated text sound human. Kills em dashes, 
 ## Install
 
 ```bash
-/plugin marketplace add Rmalnoult/claude-writing-rules
-/plugin install writing-rules
+/plugin marketplace add Rmalnoult/humanize-text
+/plugin install humanize-text
 ```
 
 That's it. No shell scripts, no copying files around.
@@ -45,7 +45,7 @@ These rules are based on research from GPTZero, Grammarly, Plagiarism Today, and
 .claude-plugin/
   marketplace.json          # makes this repo a plugin marketplace
 plugins/
-  writing-rules/
+  humanize-text/
     .claude-plugin/
       plugin.json           # plugin metadata
     skills/
@@ -55,4 +55,4 @@ plugins/
 
 ## Customize
 
-Fork the repo and edit `plugins/writing-rules/skills/humanize/SKILL.md`. Add your brand voice, terminology preferences, or formatting conventions. Then point your install at your fork.
+Fork the repo and edit `plugins/humanize-text/skills/humanize/SKILL.md`. Add your brand voice, terminology preferences, or formatting conventions. Then point your install at your fork.
