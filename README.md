@@ -1,24 +1,24 @@
 # claude-writing-rules
 
-Global writing rules for [Claude Code](https://claude.ai/claude-code) that make AI-generated text sound human. Eliminates the em dashes, title case headings, corporate filler, and robotic rhythm that scream "AI wrote this."
+Global writing rules for [Claude Code](https://claude.ai/claude-code) that kill the AI voice. No more em dashes everywhere, no Title Case Everything, no "delve into the ever-evolving landscape." Just text that sounds like a person wrote it.
 
 ## What it does
 
 Installs two things into your global `~/.claude/` config:
 
-1. **`CLAUDE.md`** — Writing rules loaded into every Claude Code session. They apply automatically whenever Claude writes user-facing text (landing pages, blog posts, emails, docs, UI copy).
+1. **`CLAUDE.md`**: writing rules loaded into every Claude Code session. They kick in automatically whenever Claude writes user-facing text (landing pages, blog posts, emails, docs, UI copy).
 
-2. **`/humanize`** — A slash command you can run on any file to review and fix existing text.
+2. **`/humanize`**: a slash command you run on any file to scan and fix existing text.
 
 ## What the rules cover
 
-- **60+ banned phrases** — "delve", "leverage", "robust", "seamless", "it's important to note", "in today's fast-paced world", and the rest of the AI vocabulary
-- **Em dashes** — max 1-2 per page, replaced with commas or periods
-- **Contractions** — always use them ("don't" not "do not", "you'll" not "you will")
-- **Sentence case headings** — "How to create listing videos" not "How To Create Listing Videos"
-- **Rhythm** — varied sentence and paragraph length, fragments allowed, no metronomic SVO patterns
-- **Tone** — address "you" directly, have opinions, use specific numbers, active voice
-- **SEO** — keyword placement, FAQ sections, experience signals over generic filler
+- **60+ banned phrases**: "delve", "leverage", "robust", "seamless", "it's important to note", "in today's fast-paced world", and the rest of the AI vocabulary.
+- **Zero em dashes**: replaced with commas, periods, or colons. Real people don't type em dashes because keyboards don't have the key.
+- **Contractions always**: "don't" not "do not", "you'll" not "you will". Uncontracted text reads like a robot.
+- **Sentence case headings**: "How to create listing videos" not "How To Create Listing Videos".
+- **Rhythm**: varied sentence and paragraph length. Fragments allowed. No metronomic SVO patterns where every sentence is 18 words long.
+- **Tone**: address "you" directly, have opinions, use specific numbers, active voice.
+- **SEO**: keyword placement, FAQ sections, experience signals over generic filler.
 
 ## Install
 
@@ -34,9 +34,9 @@ If you already have a `~/.claude/CLAUDE.md`, it'll ask whether to append or repl
 
 ## Usage
 
-**Automatic** — the rules apply in every Claude Code session. When Claude writes text, it follows the rules without you asking.
+**Automatic**: the rules apply in every Claude Code session. When Claude writes text, it follows the rules without you asking.
 
-**Manual** — run `/humanize` on any file to scan and fix violations:
+**Manual**: run `/humanize` on any file to scan and fix violations:
 
 ```
 /humanize app/pages/index.vue
@@ -44,13 +44,13 @@ If you already have a `~/.claude/CLAUDE.md`, it'll ask whether to append or repl
 
 ## Why this exists
 
-AI text has tells. GPTZero found that phrases like "play a significant role in shaping" appear 182x more in AI text than human text. Em dashes appear 8x more in ChatGPT output than in human writing. Title Case Everything is a dead giveaway.
+AI text has tells. GPTZero found that "play a significant role in shaping" appears 182x more in AI text than human text. Em dashes show up 8x more in ChatGPT output than in human writing. Title Case Everything is a dead giveaway.
 
-These rules are based on research from GPTZero, Grammarly, Plagiarism Today, and conversion copywriting best practices (PAS, AIDA frameworks). The goal isn't to hide that you use AI — it's to make the output genuinely good.
+These rules are based on research from GPTZero, Grammarly, Plagiarism Today, and conversion copywriting best practices (PAS, AIDA frameworks). The goal isn't to hide that you use AI. It's to make the output genuinely good.
 
 ## Customize
 
-Edit `CLAUDE.md` to add your own rules. Common additions:
+Edit `CLAUDE.md` to add your own voice. Common additions:
 
 - Brand voice guidelines (tone, personality, vocabulary)
 - Industry-specific terminology preferences

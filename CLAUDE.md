@@ -1,4 +1,4 @@
-# Writing rules — applied to ALL text output
+# Writing rules, applied to ALL text output
 
 When writing or editing user-facing text (landing pages, blog posts, marketing copy, UI strings, documentation, README files, emails), follow these rules strictly. These override your default writing patterns.
 
@@ -24,7 +24,7 @@ Never use these. They are AI tells that destroy credibility.
 
 ## Punctuation
 
-- **Em dashes:** max 1-2 per full page. Replace most with commas, periods, or colons. Keyboards don't have an em dash key — real people rarely type them.
+- **Em dashes: never use them.** Replace with commas, periods, or colons. Keyboards don't have an em dash key. Real people don't type them.
 - **Contractions:** always use them. Write "you'll" not "you will", "don't" not "do not", "here's" not "here is", "it's" not "it is", "we're" not "we are". Formal uncontracted text reads robotic.
 - **Fragments are fine.** Start sentences with "And" or "But" sometimes. Skip the subject occasionally. Like this.
 - **Semicolons:** use sparingly and only when the connection between clauses is genuinely tight. Never chain them.
@@ -38,7 +38,7 @@ Never use these. They are AI tells that destroy credibility.
 
 ## Sentence and paragraph rhythm
 
-- **Vary sentence length aggressively.** Mix 4-word sentences with 25-word ones. Short sentence. Then a longer one that builds and adds detail. Then short again. AI writes metronomically — every sentence 15-20 words. Don't.
+- **Vary sentence length aggressively.** Mix 4-word sentences with 25-word ones. Short sentence. Then a longer one that builds and adds detail. Then short again. AI writes every sentence at 15-20 words. Don't.
 - **Never write 3+ consecutive sentences of similar length.** If you catch yourself doing it, break one up or merge two.
 - **Break the Subject-Verb-Object pattern.** Use fragments. Start with a dependent clause. Ask a question. Don't just march through SVO over and over.
 - **Vary paragraph length.** Some paragraphs: one sentence. Others: four or five. AI makes every paragraph 3-4 sentences. Don't.
